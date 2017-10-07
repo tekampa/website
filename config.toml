@@ -36,6 +36,7 @@ defaultContentLanguageInSubdir = false
   name = "Waldo Ojeda"
   role = "Economics Ph.D. Candidate"
 
+  resume = "files/WaldoOjeda_CV.pdf"
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
   organizations = [ { name = "UC - Berkeley", url = "" } ]

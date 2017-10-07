@@ -852,15 +852,23 @@
  
  .navbar {
    min-height: 70px !important;
+   border-color: #FDB515 !important;
+   border-width: 0 0 4px;
+    
+ }
+ .navbar a{
+    color: #337ab7 !important;
+ }
+ .navbar a:hover{
+    color: #003262 !important;
  }
  
  .navbar-default {
    background: #fff;
    box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
  }
- 
- .navbar-default .navbar-toggle {
-   border-color: transparent;
+ .navbar navbar-default navbar-fixed-top{
+     border-color: #FDB515 !important;
  }
  
  .navbar-default .navbar-toggle:focus,
