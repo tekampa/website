@@ -32,4 +32,4 @@ weight = 5
 
 I am currently a Ph.D. Candidate in the Department of Economics at UC-Berkeley. I previously worked in the Household and Real Estate Economics Section at the Federal Reserve Board. I graduated from the University of Chicago in 2010 with a B.A. with Honors in Economics.
 
-{{% staticref "files/WaldoOjeda_CV.pdf" %}}Download my CV{{% /staticref %}}
+<!-- {{% staticref "files/WaldoOjeda_CV.pdf" %}}Download my CV{{% /staticref %}} -->
