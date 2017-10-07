@@ -1,0 +1,3 @@
+[submodule "tekampa.github.io"]
+	path = tekampa.github.io
+	url = git@github.com:tekampa/tekampa.github.io.git
