@@ -1,4 +1,4 @@
-baseurl = "tekampa.github.io/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+baseurl = "http://waldotekampa.me/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "Waldo Ojeda"
 copyright = "&copy; 2017 Waldo Ojeda"
 theme = "academic"
@@ -11,7 +11,7 @@ paginate = 10
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-108819850-1"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -42,7 +42,7 @@ defaultContentLanguageInSubdir = false
   organizations = [ { name = "UC - Berkeley", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "tk1.JPG"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "tekampa@berkeley.edu"
 
   # Enable Keybase in Contact section by entering your keybase.io username.
