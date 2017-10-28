@@ -14,6 +14,4 @@ weight = 10
 
 +++
 
-**Job Market Paper**
-
-...
+**Job Market Paper (coming soon)**

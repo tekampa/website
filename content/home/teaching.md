@@ -14,7 +14,7 @@ weight = 60
 
 +++
 
-I was a Graduate Student Instructor for the following courses at UC - Berkeley:
+I was a Graduate Student Instructor for the following courses at UC Berkeley:
 
 **Undergraduate:**
 
