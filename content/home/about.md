@@ -17,8 +17,9 @@ weight = 5
 
   [interests_secondary]
   interests_secondary  = [
-    "Industrial Organzation",
-    "Development"
+    "Industrial Organization",
+    "Development",
+    "Psychology and Economics"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -30,6 +31,8 @@ weight = 5
  
 +++
 
-I am currently a Ph.D. Candidate in the Department of Economics at UC Berkeley. I previously worked in the Household and Real Estate Finance Section at the Federal Reserve Board. I graduated from the University of Chicago in 2010 with a B.A. with Honors in Economics.
+I am a Ph.D. Candidate in the Department of Economics at UC Berkeley. I previously worked in the Household and Real Estate Finance Section at the Federal Reserve Board. I graduated from the University of Chicago in 2010 with a B.A. with Honors in Economics.
+
+I am currently on the the job market and will be available for interviews at the ASSA Annual Meeting in Philadelphia, PA (January 5th-7th, 2018).
 
 <!-- {{% staticref "files/WaldoOjeda_CV.pdf" %}}Download my CV{{% /staticref %}} -->
