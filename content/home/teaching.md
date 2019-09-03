@@ -13,6 +13,11 @@ widget = "custom"
 weight = 60
 
 +++
+I teach the following course at Baruch College, CUNY:
+
+**Undergraduate:**
+
+- Real Estate Capital Markets
 
 I was a Graduate Student Instructor for the following courses at UC Berkeley:
 
