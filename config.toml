@@ -1,6 +1,6 @@
 baseurl = "http://waldotekampa.me/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "Waldo Ojeda"
-copyright = "&copy; 2017 Waldo Ojeda"
+copyright = "&copy; 2019 Waldo Ojeda"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -34,16 +34,16 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Waldo Ojeda"
-  role = "Economics Ph.D. Candidate"
+  role = "Assistant Professor"
 
   resume = "files/WaldoOjeda_CV.pdf"
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "UC Berkeley", url = "" } ]
+  organizations = [ { name = "Baruch College, CUNY", url = "http://zicklin.baruch.cuny.edu/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "tk1.JPG"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "tekampa@berkeley.edu"
+  email = "waldo.ojeda@baruch.cuny.edu"
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
@@ -135,8 +135,18 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:tekampa@berkeley.edu"
+    link = "mailto:waldo.ojeda@baruch.cuny.edu"
 
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/waldo_tk"
+	
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "//linkedin.com/in/waldo-ojeda"
+	
  # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
@@ -146,20 +156,31 @@ defaultContentLanguageInSubdir = false
   name = "Home"
   url = "#about"
   weight = 1
-[[menu.main]]
-  name = "Research"
-  url = "#research"
-  weight = 2
+  
+#[[menu.main]]
+#  name = "Research"
+#  url = "#research"
+#  weight = 2
 
+[[menu.main]]
+  name = "Working Papers"
+  url = "#workingpapers"
+  weight = 2
+  
+[[menu.main]]
+  name = "Works in Progress"
+  url = "#worksinprogress"
+  weight = 3
+    
 [[menu.main]]
   name = "Teaching"
   url = "#teaching"
-  weight = 3
+  weight = 4
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 4
+  weight = 5
 
 # Taxonomies.
 [taxonomies]
