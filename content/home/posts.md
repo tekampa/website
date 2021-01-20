@@ -1,8 +1,8 @@
 +++
 # Recent Posts widget.
 # This widget displays recent posts from `content/post/`.
-widget = "posts"
-active = true
+widget = "pages"
+active = false
 
 title = "Posts"
 subtitle = ""
