@@ -1,42 +1,21 @@
-+++
-# About/Biography widget.
+---
+# An instance of the About widget.
+# Documentation: https://wowchemy.com/docs/page-builder/
+widget: about
 
-date = "2016-04-20T00:00:00"
-draft = false
+# Activate this widget? true/false
+active: true
 
-widget = "about"
+# This file represents a page section.
+headless: true
 
-# Order that this section will appear in.
-weight = 5
+# Order that this section appears on the page.
+weight: 5
 
-# List your academic interests.
-[interests]
-  interests = [
-    "Household Finance",
-	"Corporate Finance",
-	"Banking"
-  ]
+title: Biography
 
-  [interests_secondary]
-  interests_secondary  = [
-    "Industrial Organization",
-    "Development",
-    "Psychology and Economics"
-  ]
-
-# List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "Ph.D. in Economics"
-  institution = "University of California, Berkeley"
-  year = 2018
-  
-[[education.courses]]
-  course = "B.A. in Economics with Honors"
-  institution = "The University of Chicago"
-  year = 2010
- 
-+++
-
-I am an Assistant Professor in the William Newman Department of Real Estate at the Zicklin School of Business, Baruch College, CUNY. I obtained my Ph.D. in Economics at UC Berkeley. I previously worked in the Household and Real Estate Finance Section at the Federal Reserve Board. I graduated from the University of Chicago in 2010 with a B.A. with Honors in Economics.
-
-<!-- {{% staticref "files/WaldoOjeda_CV.pdf" %}}Download my CV{{% /staticref %}} -->
+# Choose the user profile to display
+# This should be the username (folder name) of a profile in your `content/authors/` folder.
+# See https://wowchemy.com/docs/get-started/#introduce-yourself
+author: admin
+---
