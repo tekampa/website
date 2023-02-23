@@ -19,6 +19,8 @@ I teach the following course at Baruch College, CUNY:
 
 - Real Estate Capital Markets
 
+- Real Estate Finance and Investment
+
 I was a Graduate Student Instructor for the following courses at UC Berkeley:
 
 **Undergraduate:**
