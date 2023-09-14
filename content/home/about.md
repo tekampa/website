@@ -13,15 +13,16 @@ weight = 5
 [interests]
   interests = [
     "Household Finance",
-	"Corporate Finance",
-	"Banking"
+	"Real Estate",
+	"Banking",
+	"FinTech"
   ]
 
   [interests_secondary]
   interests_secondary  = [
-    "Industrial Organization",
+    "Psychology and Economics",
     "Development",
-    "Psychology and Economics"
+	"Corporate Finance"
   ]
 
 # List your qualifications (such as academic degrees).
