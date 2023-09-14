@@ -13,13 +13,15 @@ widget = "custom"
 weight = 60
 
 +++
-I teach the following course at Baruch College, CUNY:
+I teach the following courses at Baruch College, CUNY:
 
 **Undergraduate:**
 
 - Real Estate Capital Markets
 
 - Real Estate Finance and Investment
+
+I received the Teaching Excellence Award for the 2020-2021 Academic Year.
 
 I was a Graduate Student Instructor for the following courses at UC Berkeley:
 
