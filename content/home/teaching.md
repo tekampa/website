@@ -13,7 +13,15 @@ widget = "custom"
 weight = 60
 
 +++
-I teach the following courses at Baruch College, CUNY:
+I teach the following courses at Columbia University:
+
+**Undergraduate:**
+
+- Senior Seminar in Real Estate
+
+- Financial Economics
+
+I taught the following courses at Baruch College, CUNY:
 
 **Undergraduate:**
 

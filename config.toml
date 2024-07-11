@@ -34,16 +34,16 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Waldo Ojeda"
-  role = "Assistant Professor"
+  role = "Lecturer in Discipline"
 
   resume = "files/WaldoOjeda_CV.pdf"
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Baruch College, CUNY", url = "http://zicklin.baruch.cuny.edu/" } ]
+  organizations = [ { name = "Columbia University", url = "https://econ.columbia.edu" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "tk1.JPG"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "waldo.ojeda@baruch.cuny.edu"
+  email = "wo2198@columbia.edu"
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
@@ -135,7 +135,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:waldo.ojeda@baruch.cuny.edu"
+    link = "mailto:wo2198@columbia.edu"
 
   [[params.social]]
     icon = "twitter"
