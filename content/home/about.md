@@ -38,6 +38,6 @@ weight = 5
  
 +++
 
-I am an Assistant Professor in the William Newman Department of Real Estate at the Zicklin School of Business, Baruch College, CUNY. I obtained my Ph.D. in Economics at UC Berkeley. I previously worked in the Household and Real Estate Finance Section at the Federal Reserve Board. I graduated from the University of Chicago in 2010 with a B.A. with Honors in Economics.
+I am a Lecturer in Discipline in the Economics Department at Columbia University. I obtained my Ph.D. in Economics at UC Berkeley. I previously worked in the Household and Real Estate Finance Section at the Federal Reserve Board. I graduated from the University of Chicago in 2010 with a B.A. with Honors in Economics.
 
 <!-- {{% staticref "files/WaldoOjeda_CV.pdf" %}}Download my CV{{% /staticref %}} -->
