@@ -34,6 +34,8 @@ profiles:
     url: https://twitter.com/waldo_tk
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/waldo-ojeda/
+  - icon: brands/github
+    url: https://github.com/tekampa
 
 interests:
   - Household Finance
