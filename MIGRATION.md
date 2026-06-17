@@ -93,8 +93,13 @@ stable for several days.
 ## Verification
 
 ```bash
+asdf plugin add hugo
+asdf install hugo extended_0.136.5
 go mod download
 asdf exec hugo --gc --minify
 ```
+
+The local Hugo version should match `.tool-versions` and the GitHub Actions
+workflow: Hugo Extended 0.136.5.
 
 The deployment workflow runs when changes are pushed to `master`.

@@ -5,11 +5,14 @@ Source for [waldotekampa.me](https://waldotekampa.me/), built with Hugo
 
 ## Local Development
 
-Install Go and [asdf](https://asdf-vm.com/), then install the pinned Hugo
-version and download the Hugo modules:
+Install Go and [asdf](https://asdf-vm.com/), then install the Hugo plugin and
+the pinned Hugo Extended version used by GitHub Actions. A plain `asdf install`
+will not install Hugo until the plugin is available, and `hugo latest` may not
+match the deployment version.
 
 ```bash
-asdf install
+asdf plugin add hugo
+asdf install hugo extended_0.136.5
 go mod download
 ```
 
