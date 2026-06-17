@@ -1,7 +1,7 @@
 name: Deploy website to GitHub Pages
 
 env:
-  HUGO_VERSION: '0.136.5'
+  HUGO_VERSION: '0.163.2'
 
 on:
   # Deploy production changes from the repository's default branch
