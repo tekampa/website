@@ -76,11 +76,12 @@ pre {
   color: var(--legacy-navy) !important;
 }
 
-.paper-download {
+.paper-download,
+.resume-biography a.inline-flex {
   align-items: center;
   background-color: var(--legacy-button) !important;
-  border: 1px solid var(--legacy-button);
-  border-radius: 4px;
+  border: 1px solid var(--legacy-button) !important;
+  border-radius: 4px !important;
   color: #fff !important;
   display: inline-flex;
   font-family: "Roboto", sans-serif;
@@ -90,14 +91,16 @@ pre {
   line-height: 1;
   margin: 0.25rem 0 1rem;
   min-width: 100px;
-  padding: 0.6rem 0.9rem;
+  padding: 0.6rem 0.9rem !important;
   text-decoration: none !important;
 }
 
 .paper-download:hover,
-.paper-download:focus {
+.paper-download:focus,
+.resume-biography a.inline-flex:hover,
+.resume-biography a.inline-flex:focus {
   background-color: var(--legacy-blue) !important;
-  border-color: var(--legacy-blue);
+  border-color: var(--legacy-blue) !important;
   color: #fff !important;
   text-decoration: none !important;
 }
