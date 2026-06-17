@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400&family=Roboto+Mono&display=swap");
+
+:root {
+  --legacy-navy: #003262;
+  --legacy-blue: #337ab7;
+  --legacy-button: #0095eb;
+  --legacy-gold: #fdb515;
+  --legacy-section: #f7f7f7;
+  --legacy-text: #313131;
+}
+
+html,
+body {
+  color: var(--legacy-text);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.section-subheading {
+  color: var(--legacy-text);
+  font-family: "Montserrat", sans-serif;
+}
+
+code,
+pre {
+  font-family: "Roboto Mono", monospace;
+}
+
+.prose {
+  font-family: inherit;
+}
+
+.page-header {
+  border-bottom: 4px solid var(--legacy-gold);
+}
+
+.navbar {
+  min-height: 70px;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--legacy-blue) !important;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus,
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--legacy-navy) !important;
+}
+
+.portrait-title .text-3xl {
+  color: var(--legacy-text) !important;
+  font-weight: 300;
+}
+
+.portrait-title .mb-2 a,
+.portrait-title .mb-2 a div,
+.network-icon a {
+  color: var(--legacy-blue) !important;
+}
+
+.portrait-title .mb-2 a:hover,
+.portrait-title .mb-2 a:focus,
+.network-icon a:hover,
+.network-icon a:focus {
+  color: var(--legacy-navy) !important;
+}
+
+.paper-download {
+  align-items: center;
+  background-color: var(--legacy-button) !important;
+  border: 1px solid var(--legacy-button);
+  border-radius: 4px;
+  color: #fff !important;
+  display: inline-flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin: 0.25rem 0 1rem;
+  min-width: 100px;
+  padding: 0.6rem 0.9rem;
+  text-decoration: none !important;
+}
+
+.paper-download:hover,
+.paper-download:focus {
+  background-color: var(--legacy-blue) !important;
+  border-color: var(--legacy-blue);
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.hbb-section:nth-of-type(even) .home-section-bg {
+  background-color: var(--legacy-section) !important;
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark .section-subheading,
+.dark .portrait-title .text-3xl {
+  color: #fff !important;
+}
+
+.dark .hbb-section:nth-of-type(even) .home-section-bg {
+  background-color: rgb(24 24 27) !important;
+}
