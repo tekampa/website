@@ -1,0 +1,14 @@
+/* Hugo Blox color theme: COLUMBIA */
+:root {
+  --color-primary-50: 237 242 255;
+  --color-primary-100: 219 228 255;
+  --color-primary-200: 185 202 255;
+  --color-primary-300: 139 165 255;
+  --color-primary-400: 92 126 240;
+  --color-primary-500: 46 94 210;
+  --color-primary-600: 18 64 175;
+  --color-primary-700: 0 61 165;
+  --color-primary-800: 0 46 128;
+  --color-primary-900: 0 31 91;
+  --color-primary-950: 0 16 54;
+}
