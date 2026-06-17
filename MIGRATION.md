@@ -5,7 +5,7 @@ Hugo Blox source prepared in `website_temp`.
 
 ## Current Structure
 
-- Hugo Extended 0.136.5
+- Hugo Extended 0.163.2
 - Hugo Blox Tailwind module
 - Homepage content in `content/_index.md`
 - Profile data in `content/authors/admin/_index.md`
@@ -93,13 +93,12 @@ stable for several days.
 ## Verification
 
 ```bash
-asdf plugin add hugo
-asdf install hugo extended_0.136.5
+brew install hugo   # Hugo Extended; recent macOS releases are .pkg-only
 go mod download
-asdf exec hugo --gc --minify
+hugo --gc --minify
 ```
 
-The local Hugo version should match `.tool-versions` and the GitHub Actions
-workflow: Hugo Extended 0.136.5.
+The local Hugo version should match the GitHub Actions workflow
+(`HUGO_VERSION` in `.github/workflows/publish.yaml`): Hugo Extended 0.163.2.
 
 The deployment workflow runs when changes are pushed to `master`.

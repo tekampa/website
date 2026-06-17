@@ -1,31 +1,36 @@
 # Waldo Ojeda Website
 
 Source for [waldotekampa.me](https://waldotekampa.me/), built with Hugo
-0.136.5 and Hugo Blox.
+0.163.2 and Hugo Blox.
 
 ## Local Development
 
-Install Go and [asdf](https://asdf-vm.com/), then install the Hugo plugin and
-the pinned Hugo Extended version used by GitHub Actions. A plain `asdf install`
-will not install Hugo until the plugin is available, and `hugo latest` may not
-match the deployment version.
+Install Go and Hugo Extended. On macOS, Hugo ships only a `.pkg` installer for
+recent releases, so install it with [Homebrew](https://brew.sh/) to match the
+version used by GitHub Actions:
 
 ```bash
-asdf plugin add hugo
-asdf install hugo extended_0.136.5
+brew install hugo   # or: brew upgrade hugo
 go mod download
+```
+
+Confirm the version matches the deployment version (`HUGO_VERSION` in
+`.github/workflows/publish.yaml`):
+
+```bash
+hugo version   # expect: hugo v0.163.2+extended ...
 ```
 
 Start the local development server:
 
 ```bash
-asdf exec hugo server
+hugo server
 ```
 
 Create a production build:
 
 ```bash
-asdf exec hugo --gc --minify
+hugo --gc --minify
 ```
 
 The generated `public/` directory is ignored because GitHub Actions builds the
