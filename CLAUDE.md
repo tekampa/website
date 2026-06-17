@@ -12,26 +12,26 @@ There is no application code; everything is content (Markdown) and configuration
 
 ## Toolchain
 
-- **Hugo Extended 0.136.5** — pinned in three places that must stay in sync:
-  `.tool-versions`, `hugoblox.yaml`, and `.github/workflows/publish.yaml`
-  (`HUGO_VERSION`). Change all three together.
+- **Hugo Extended 0.163.2** — pinned in two places that must stay in sync:
+  `hugoblox.yaml` and `.github/workflows/publish.yaml` (`HUGO_VERSION`).
+  Change both together.
 - **Go 1.19+** — Hugo Modules pull the theme; see `go.mod` / `go.sum`.
-- **asdf** — recommended for matching the pinned Hugo version locally. A plain
-  `asdf install` will not fetch Hugo until the plugin is added.
+- **Homebrew** — used for local installs. Recent Hugo releases ship macOS only
+  as a `.pkg`, so install the matching Extended build with `brew install hugo`
+  (`brew upgrade hugo` to update) and confirm with `hugo version`.
 
 ## Common commands
 
 ```bash
 # One-time setup
-asdf plugin add hugo
-asdf install hugo extended_0.136.5
+brew install hugo   # Hugo Extended; brew upgrade hugo to update
 go mod download
 
 # Local dev server (http://localhost:1313)
-asdf exec hugo server
+hugo server
 
 # Production build (output in public/, which is gitignored)
-asdf exec hugo --gc --minify
+hugo --gc --minify
 ```
 
 ## Layout
