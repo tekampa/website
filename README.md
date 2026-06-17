@@ -49,5 +49,10 @@ website continue to work.
 Pushing to `master` runs `.github/workflows/publish.yaml`, which builds the
 site and deploys it through GitHub Pages.
 
+To trigger a deploy manually (without a new commit), open the repository's
+**Actions** tab, select the **Deploy website to GitHub Pages** workflow, and
+click **Run workflow** on the `master` branch. You can also re-run the jobs of
+a previous run from that run's page using **Re-run all jobs**.
+
 The custom domain is managed in the repository's GitHub Pages settings. This
 source intentionally does not include a `CNAME` file.
