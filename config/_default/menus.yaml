@@ -16,9 +16,12 @@ main:
   - name: Teaching
     url: /#teaching
     weight: 40
+  - name: Old Papers
+    url: /#oldpapers
+    weight: 50
   - name: Blog
     url: /#posts
-    weight: 50
+    weight: 60
   - name: Contact
     url: /#contact
-    weight: 60
+    weight: 70
